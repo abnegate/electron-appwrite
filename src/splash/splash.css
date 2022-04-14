@@ -1,0 +1,11 @@
+.splash {
+    background-color: white;
+    background-image: url("../../public/img/appwrite.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 66%;
+    border-radius: 50px;
+    height: 40vh;
+    width: 95vw;
+    z-index: -1
+}

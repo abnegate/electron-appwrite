@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'">
+    <link href="add-source.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Instance Source</h1>
+
+    <p>Select whether you are connecting to Appwrite Cloud, or a self hosted/local Appwrite instance.</p>
+
+    <div class="container">
+      <button class="source-button" id="btnCloud">
+        <img src="../public/img/cloud.png"></img>
+        <p>Cloud</p>
+      </button>
+      <button class="source-button" id="btnSelfHosted">
+        <img src="../public/img/remote.png"></img>
+        <p>Self Hosted</p>
+      </button>
+      <button class="source-button" id="btnLocal">
+        <img src="../public/img/local.png"></img>
+        <p>Local</p>
+      </button>
+    </div>
+    <script src="./renderer.js"></script>
+    <script src="./menu.js"></script>
+  </body>
+</html>
+
